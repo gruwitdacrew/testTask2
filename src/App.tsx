@@ -23,6 +23,7 @@ function App() {
 
   const saveNode = (node: NodeData | null, editValue: string) => {
     if (node === null) alert("Выберите Node");
+    else if (editValue === "") alert("Укажите новое название");
     else
     {
       setNodes(nodes => {
