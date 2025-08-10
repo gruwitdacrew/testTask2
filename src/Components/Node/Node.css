@@ -1,0 +1,14 @@
+.node {
+    padding: 2px 10px;
+    width: auto;
+    color: green;
+    cursor: pointer;
+}
+
+.nodeChildren {
+    padding: 0 1rem;
+}
+
+.node:hover {
+    background-color: gainsboro;
+}
